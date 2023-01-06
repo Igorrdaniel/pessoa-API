@@ -20,7 +20,7 @@ public class Endereco {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
-    private Long id;
+    private Long idEndereco;
 
     @ManyToOne
     @JoinColumn(name = "pessoa_id")
